@@ -1,6 +1,6 @@
 
 // Brute Force
-public class ArraySub {
+public class ArraySubSum {
 
     
     public static void sub(int numbers[]) {
@@ -10,10 +10,10 @@ public class ArraySub {
         for (int i = 0; i < numbers.length; i++) {
 
             int start = i; // 0 , 1 , 2
-
+           
             for (int j = i; j < numbers.length; j++) {
                 int end = j; // 0 , 1 , 2 // 1 , 2 // 2
-               sum  =  0  ; 
+                sum  =  0  ;
                 for (int k = start; k <= end; k++) {
                     sum += numbers[k];
                      

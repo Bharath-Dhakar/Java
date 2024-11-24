@@ -29,5 +29,7 @@ public class Day_02 {
         float marks  =  70.345f;
         int mark =  (int) marks ;
         System.out.println(mark);
+
+        
     }
 }

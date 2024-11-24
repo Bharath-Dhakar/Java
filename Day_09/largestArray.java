@@ -1,7 +1,8 @@
 public class largestArray {
 
 public static int LargestNum(int numbers[]){
-    int max = numbers[0];
+
+    int max = Integer.MIN_VALUE;   // number[0]
 
 
     for(int i  = 0  ;  i  < numbers.length ; i++){

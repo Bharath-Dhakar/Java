@@ -17,3 +17,4 @@ public class LinearSearching{
         System.out.println("-->> " + index); // Output the result
     }
 }
+
