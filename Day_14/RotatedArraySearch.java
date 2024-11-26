@@ -11,14 +11,17 @@
                 }
     
                 // Determine which side is sorted
-                
+
                 if (nums[left] <= nums[mid]) {
                     // Left side is sorted
+                    
                     if (nums[left] <= target && target < nums[mid]) {
                         right = mid - 1; // Target is in the left sorted portion
                     } else {
                         left = mid + 1;  // Target is in the unsorted portion
                     }
+
+
                 } else {
                     // Right side is sorted
                     if (nums[mid] < target && target <= nums[right]) {
